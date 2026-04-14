@@ -8,16 +8,20 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Letícia Xavier Abreu
+- Matricula: 910742
+- Proposta de projeto escolhida: Site de receitas
+- Breve descrição sobre seu projeto: Será um site onde a pessoa poderá pesquisar por receitas, além de compartilhar novas.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
+
+![print versao desktop](public/Print-Bootstrap-desktop.PNG)
 
 <<  COLOQUE A IMAGEM AQUI >>
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
+
+![print versao mobile](public/print-bootstrap-mobile.PNG)
 
 <<  COLOQUE A IMAGEM AQUI >>
 
