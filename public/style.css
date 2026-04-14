@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #7c5555;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img {
+    height: 7rem;
+    margin-left: 20px;
+}
+
+.Nome {
+    font-family: "Spicy Rice", serif;
+    font-size: 3rem;
+    color: rgb(168, 124, 124);
+}
+
+.caixa-de-pesquisa {
+    background-color: #7c5555;
+    padding: 10px;
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: #b7a6b4;
+}
+
+.caixa-menuprincipal {
+    width: 100%;
+    background-color: rgb(168, 124, 124);
+    border: 2px solid #7c5555;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.caixa-menuprincipal ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+    padding: 10px;
+}
+
+.caixa-menuprincipal li {
+    list-style: none;
+}
+
+.caixa-menuprincipal a {
+    text-decoration: none;
+    color: beige;
+    background-color: #7c5555;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.caixa-menuprincipal a:hover {
+    background-color: black;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 75%;
+    background-color: beige;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+    color: rgb(168, 124, 124);
+    margin-bottom: 20px;
+}
+
+.receita {
+    width: calc(33.33% - 25px);
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 2px solid #7c5555;
+    display: inline-block;
+    text-align: center;
+}
+
+.receita img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.subtitulo {
+    font-family: "Spicy Rice", serif;
+    color: rgb(168, 124, 124);
+}
+
+.Texto {
+    padding: 10px;
+}
+
+aside {
+    width: 25%;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-left: 2px solid #7c5555;
+}
+
+.caixa-categoria {
+    padding: 10px;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Spicy Rice", serif;
+    color: rgb(168, 124, 124);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+legend {
+    font-family: cursive;
+    color: rgb(168, 124, 124);
+}
+
+select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #7c5555;
+    color: beige;
+}
+
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #7c5555;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .layout {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        border: 2px solid #7c5555;
+    }
+
+    .receita {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa-de-pesquisa {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .caixa-menuprincipal ul {
+        flex-direction: column;
+        display: none;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    #menuToggle:checked ~ ul {
+        display: flex;
+    }
+}
